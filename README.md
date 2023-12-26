@@ -66,12 +66,10 @@ Before you begin, ensure you have the following installed:
    npm install
    php artisan key:generate
    php artisan migrate --seed
-
-   ```bash
    npm run dev
    php artisan serve
 
-Visit http://127.0.0.1:8000 in your browser.
+## Visit http://127.0.0.1:8000 in your browser.
 
 Usage
 Dashboard
