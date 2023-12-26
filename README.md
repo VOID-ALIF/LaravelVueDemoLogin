@@ -74,9 +74,11 @@ Before you begin, ensure you have the following installed:
 
 ## composer install
   npm install
+<br>
   php artisan key:generate
+<br>
   php artisan migrate --seed
-
+<br>
 ## Compile assets using Mix:
   npm run dev
 
