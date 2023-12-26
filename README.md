@@ -71,13 +71,14 @@ Before you begin, ensure you have the following installed:
    ```bash
    cd loginvue
 ## Installation
+ ```bash
   composer install
   npm install
   php artisan key:generate
   php artisan migrate --seed
 
 ## Compile assets using Mix:
-
+ ```bash
   npm run dev
 
 ## Serve the application:
