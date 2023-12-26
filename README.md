@@ -60,7 +60,7 @@ Before you begin, ensure you have the following installed:
 
 ### Download and Extract
 
-1. Download the project as a ZIP file from the [GitHub repository](https://github.com/your-username/laravel-vue-crud).
+1. Download the project as a ZIP file from the [GitHub repository](https://github.com/VOID-ALIF/LaravelVueDemoLogin).
 
 2. Create a folder named `loginvue`.
 
@@ -70,17 +70,19 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    cd loginvue
-# Installation
--[composer install]
--[npm install]
--[php artisan key:generate]
--[php artisan migrate --seed]
+## Installation
+  composer install
+  npm install
+  php artisan key:generate
+  php artisan migrate --seed
 
-Compile assets using Mix:
--[npm run dev]
+## Compile assets using Mix:
 
-Serve the application:
--[php artisan serve]
+  npm run dev
+
+## Serve the application:
+ ```bash
+  php artisan serve
 
 Visit http://127.0.0.1:8000 in your browser.
 
