@@ -70,6 +70,29 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    cd loginvue
+Installation
+composer install
+npm install
+php artisan key:generate
+php artisan migrate --seed
 
+Compile assets using Mix:
+npm run dev
 
+Serve the application:
+php artisan serve
 
+Visit http://127.0.0.1:8000 in your browser.
+
+Usage
+Dashboard
+Upon successful authentication, users will be redirected to the dashboard. The dashboard provides a welcoming message and status information.
+
+Task Management
+Navigate to the Tasks section to perform CRUD operations on tasks. Users can view, create, edit, and delete tasks.
+
+Contributing
+Contributions are welcome! Please follow the contribution guidelines.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
