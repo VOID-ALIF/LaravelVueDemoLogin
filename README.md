@@ -70,17 +70,17 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    cd loginvue
-Installation
-composer install
-npm install
-php artisan key:generate
-php artisan migrate --seed
+# Installation
+-[composer install]
+-[npm install]
+-[php artisan key:generate]
+-[php artisan migrate --seed]
 
 Compile assets using Mix:
-npm run dev
+-[npm run dev]
 
 Serve the application:
-php artisan serve
+-[php artisan serve]
 
 Visit http://127.0.0.1:8000 in your browser.
 
