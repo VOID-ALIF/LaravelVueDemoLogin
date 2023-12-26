@@ -66,6 +66,8 @@ Before you begin, ensure you have the following installed:
    npm install
    php artisan key:generate
    php artisan migrate --seed
+
+```bash
    npm run dev
    php artisan serve
 
